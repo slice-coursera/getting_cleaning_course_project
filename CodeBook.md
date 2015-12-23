@@ -2,6 +2,7 @@
 ##Process for summary data extraction
 From the original data set ([UCI HAR Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)) variables we have created a tidy summarized data set.
 The summary data set was created using the following steps:
+
 1. Load the original feature list and filter it down to only the mean and standard deviation variables(variables containing mean() and std())
 2. We use the feature list to create more detailed and human readable column names for the new summary data set
 3. We then load the data related to the training data set (subject_train.txt, X_train.txt, y_train.txt). Extract the subject, filtered feature list, and the activity
@@ -10,6 +11,7 @@ The summary data set was created using the following steps:
 6. The activity variable is changed into a human readable factor
 7. The data set is reshaped to have each row be one subject and one activity and then the mean of all other measurements from the filtered feature list
 8. Finally the summary data set is saved as a csv file called summaryData.csv
+
 ## Summary data set variables
 The summary data set has the following variables:
 * subject: numeric (1-30) of the subject who performed the activity
