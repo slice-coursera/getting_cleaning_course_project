@@ -10,7 +10,7 @@ The summary data set was created using the following steps:
 5. The test and training data set are combined
 6. The activity variable is changed into a human readable factor
 7. The data set is reshaped to have each row be one subject and one activity and then the mean of all other measurements from the filtered feature list
-8. Finally the summary data set is saved as a csv file called summaryData.csv
+8. Finally the summary data set is saved as a txt file called summaryData.txt
 
 ## Summary data set variables
 The summary data set has the following variables:
