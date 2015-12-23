@@ -73,6 +73,3 @@ summarizeData <- function(){
     write.table(summary.data, file = 'summaryData.csv', sep = ",", row.names = F)
 }
 ```
-
-
-Course Project for the Getting and Cleaning Data Cousera course in the data scientist track.
